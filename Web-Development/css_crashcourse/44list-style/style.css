@@ -1,0 +1,20 @@
+body {
+    background-color: white;
+}
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    
+}
+
+ol li {
+    border: 1px solid #ccc;
+    width: 100px;
+    text-align: center;
+}
+
+
+
+

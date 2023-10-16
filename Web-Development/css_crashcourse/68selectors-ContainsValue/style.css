@@ -1,0 +1,16 @@
+/*dont use two words in title otherwise its wont work  */
+.fa.fa-question-circle[title~="trust"]  {
+    border: 1px solid black;
+    font-size: 100px;
+    background-color: #ccc;
+    
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+    font-family: fantasy;
+    
+    margin-left: 0px
+    
+}
+nav {
+    
+    font-family: cursive;
+    background-color: gray;
+    color: red;
+    padding: 10px;
+    
+    
+}
+#f  {
+    text-decoration: none;
+    font-size: 20px;
+    color: slateblue;
+    background-color: gainsboro;
+    margin: 0 auto;
+    padding: 5px;
+}
+#f:hover {
+    color: blue;
+    background-color: white;
+}
+
+#test {
+    width: 50%;
+    padding: 5px;
+    font-size: 20px;
+    font-family:cursive;
+    opacity: 0.30;
+    margin: 5px;
+    color: red;
+}
+
+input[type="text"]:disabled, .disabled {
+    color: red;
+    background-color: black;
+    border: 30px solid yellow;
+    
+    outline: orange;
+    outline-width: 20px;
+}
+
+
+

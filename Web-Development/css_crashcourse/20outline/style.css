@@ -1,0 +1,23 @@
+body {
+    background-color: mintcream;
+    margin: 0px;
+    background-attachment: fixed;
+}
+em {
+    border-style: solid;
+    border-color: palevioletred;
+    border-width: 5px;
+    margin: 0px auto;
+    padding: 3px;
+    outline: 1px solid black
+
+}
+div {font-style: oblique;
+    border-style: solid;
+    border-color: palevioletred;
+    border-width: 5px;
+    margin: 0px auto;
+    padding: 3px;
+    outline: 1px solid black;
+    font-size: 100px;
+}

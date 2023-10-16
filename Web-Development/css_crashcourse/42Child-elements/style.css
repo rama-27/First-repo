@@ -1,0 +1,13 @@
+body {
+    background-color: white;
+}
+
+div > p {
+    color: blue;
+}
+div > span > p {
+    color: red;
+}
+p {
+    color: blueviolet;
+}

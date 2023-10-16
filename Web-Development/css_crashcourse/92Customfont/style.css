@@ -1,0 +1,38 @@
+html {
+    height: 100%;
+}
+@font-face {
+    font-family: Light;
+    src: url('Roboto/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: Dark;
+    src: url('Roboto/Roboto-Black.ttf');
+}
+
+@font-face {
+    font-family: medium;
+    src: url('Roboto/Roboto-Medium.ttf');
+}
+
+body {
+    background-color: white;
+    font-family: Roboto1;
+    font-weight: normal;
+    margin-left: 0px;
+    
+}
+
+
+.head {
+    font-family: dark;
+    font-weight: 900;
+}
+
+
+
+.p {
+    font-family: medium;
+    opacity: 0.80;
+}

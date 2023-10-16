@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bouncing Ball Animation</title>
+  </head>
+  <body onload="startAnimation()">
+    <canvas id="animation" width="500" height="500"></canvas>
+
+    <script>
+      var canvas;
+      var ctx;
+      var x = 50;
+      var y = 50;
+      var xSpeed = 5;
+      var ySpeed = 5;
+
+      function startAnimation() {
+        canvas = document.getElementById("animation");
+        ctx = canvas.getContext("2d");
+        setInterval(draw, 10);
+      }
+
+      function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.beginPath();
+        ctx.arc(x, y, 50, 0, 2 * Math.PI);
+        ctx.fillStyle = "red";
+        ctx.fill();
+        if(x > canvas.width-50 || x < 50) {
+            xSpeed = -xSpeed;
+        }
+        if(y > canvas.height-50 || y < 50) {
+            ySpeed = -ySpeed;
+        }
+        x += xSpeed;
+        y += ySpeed;
+      }
+    </script>
+  </body>
+</html>

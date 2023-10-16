@@ -1,0 +1,83 @@
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #f5f5f5;
+    margin-left: 3px;
+    font-family: fantasy;
+}
+
+#body {
+    text-align: justify;
+    word-spacing: -2px;
+    letter-spacing: 0px;
+    font-size: 15px
+
+}
+
+.para {
+
+    padding: 10px;
+}
+
+
+
+.container-box {
+    background-color: royalblue;
+    padding: 5px;
+    width: 100%;
+    margin-left: 0;
+}
+
+.col-1, .col-2, .col-3, .main-col {
+
+
+    border: 1px solid;
+    display: inline-block;
+    width: calc(33% - 20px);
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0;
+    height: 100px;
+}
+
+
+.main-col {
+    display: block;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

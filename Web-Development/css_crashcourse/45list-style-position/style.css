@@ -1,0 +1,10 @@
+body {
+    background-color: white;
+}
+
+.inside {
+    list-style-position: inside;
+}
+.outside {
+    list-style-position: outside;
+}

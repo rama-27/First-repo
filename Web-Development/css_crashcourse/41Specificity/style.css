@@ -1,0 +1,11 @@
+body {
+    background-color: white;
+}
+
+
+div div p span {
+    color: red;
+    text-decoration: overline;
+    text-decoration-color: gold;
+
+}

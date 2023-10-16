@@ -1,0 +1,12 @@
+body {
+    background-color: lavenderblush;
+}
+p.red {
+    color: red;
+}
+p.green {
+    color: green;
+}
+p.yellow {
+    color: rgb(139, 139, 0);
+}

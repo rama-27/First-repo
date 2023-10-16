@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+    font-family: fantasy;
+    
+    margin-left: 0px
+    
+}
+h1 {
+    
+    font-family: cursive;
+    background-color: gray;
+    color: red;
+    padding: 10px;
+    margin: auto;
+    
+}
+#f  {
+    text-decoration: none;
+    font-size: 20px;
+    color: slateblue;
+    background-color: gainsboro;
+    margin: 0 auto;
+    padding: 5px;
+}
+#f:hover {
+    color: blue;
+}
+
+.position {
+    display: inline-block;
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    border: 1px solid gold;
+    font-family: Roboto;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}

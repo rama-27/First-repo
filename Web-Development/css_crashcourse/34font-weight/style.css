@@ -1,0 +1,14 @@
+body {
+    background-color: white
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+#font1 {font-weight: 900; ;}
+#font2 {font-weight: 700; ;}
+#font3 {font-weight: 500; ;}
+#font4 {font-weight: 400; ;}
+#font5 {font-weight: 300; ;}
+#font6 {font-weight: 100; ;}

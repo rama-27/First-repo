@@ -1,0 +1,53 @@
+body {
+    background-color: white;
+    font-family: fantasy;
+    
+    margin-left: 0px
+    
+}
+nav {
+    
+    font-family: cursive;
+    background-color: gray;
+    color: red;
+    padding: 10px;
+    
+    
+}
+#f  {
+    text-decoration: none;
+    font-size: 20px;
+    color: slateblue;
+    background-color: gainsboro;
+    margin: 0 auto;
+    padding: 5px;
+}
+#f:hover {
+    color: blue;
+    background-color: white;
+}
+form {
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 1px solid #ccc;
+    padding: 25px;
+    text-align: center;
+    
+}
+label, button {
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+ input[type] {
+     border: 1px solid #ccc;
+     padding: 5px;
+     font-family: cursive;
+     
+ }
+ input {
+    margin: 3px;
+}
+

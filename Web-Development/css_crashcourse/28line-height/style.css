@@ -1,0 +1,22 @@
+body {
+    background-color: gainsboro;
+    margin: 0 auto;
+}
+div{
+    font-style: italic;
+ 
+
+
+}
+.ntg {
+    line-height: 0.5cm;
+    padding: 10px;
+    text-indent: 10%;
+    
+    text-align: justify;
+    letter-spacing: -0.55px;
+    word-spacing: -1px;
+    font-style: italic;
+    text-decoration: underline;
+    
+}

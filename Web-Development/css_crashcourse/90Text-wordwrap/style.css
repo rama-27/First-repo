@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+}
+
+
+body {
+    background-color: white;
+    font-family: fantasy;
+    
+}
+nav {
+    
+    font-family: cursive;
+    background-color: gray;
+    color: red;
+    padding: 10px;
+    
+    
+}
+#f  {
+    text-decoration: none;
+    font-size: 20px;
+    color: slateblue;
+    background-color: gainsboro;
+    margin: 0 auto;
+    padding: 5px;
+}
+#f:hover {
+    color: blue;
+    background-color: white;
+}
+
+.para {
+    border: 1px solid;
+    padding: 5px;
+    margin: 15px;
+    width: 190px;
+    word-wrap: break-word;
+    overflow: hidden;
+    
+}
+
+
+
+
+
+
+
+
+

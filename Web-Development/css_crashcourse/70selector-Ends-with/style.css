@@ -1,0 +1,61 @@
+body {
+    background-color: #fff;
+}
+form {
+    text-align: center;
+    border: 1px solid gray;
+    padding: 50px;
+    width: 50%;
+    margin: 0 auto;
+    
+    background-color: ivory;
+    font-family: fantasy;
+    font-weight: bold;
+    
+}
+
+
+
+div {
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    margin-left: 30px;
+}
+button {
+    background-color: white;
+    font-family: fantasy;
+    border: 1px solid gray;
+    padding: 8px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+[href^="https"] {
+    color: #ccc;
+    text-decoration: none;
+    padding: 10px;
+    float: left;
+}
+
+[href^="https"]:hover {
+    color: green;
+    text-decoration: underline;
+}
+[href$="se"] {
+    color:green;
+    text-decoration: none;
+    padding: 10px;
+    float: left;
+    display: block;
+    margin-left: 20px;
+
+}
+[href$="se"]:hover {
+    text-decoration: underline;
+    text-decoration-color: #ccc;
+    color: #ccc;
+}
+
+
+

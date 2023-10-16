@@ -1,0 +1,28 @@
+body {
+    background-color: gainsboro;
+    margin: 0px auto;
+}
+label{
+    
+    
+    display: block;
+    padding: 1px;
+}
+div {
+    font-style: italic;
+}
+label{ margin-bottom: 3px;
+    margin: 4px;
+    
+}
+form { padding: 50px;
+        margin: 0px auto;
+        background-color: rgb(240, 255, 231);
+        border: px solid red;
+        height: 30%;
+        width: 30%;
+}
+button {margin: 3px auto;
+    padding: 2px;
+    background-color: rgb(242, 226, 255);
+}

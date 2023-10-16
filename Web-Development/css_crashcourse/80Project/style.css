@@ -1,0 +1,169 @@
+body {
+    background-color: #f5f5f5;
+    font-family: fantasy;
+    margin: 0;
+   
+    
+}
+div.nav-container {
+    margin-top: 25px;
+}
+
+#brand {
+    display: block;
+    padding:20px ;
+    border: 1px solid #f5f5f5;
+    background-color: gray;
+    
+}
+#nav-container {
+    /* float: left; */              /* UNCOMMENT THIS */
+      width: 200px;
+    padding: 10px;
+    
+    margin: 5px;
+    height: 200px;
+    border: 1px solid #ccc;
+    background-color: aliceblue;
+    margin-left: 0px;
+    display: inline-block;
+    
+}
+#body {
+    height: 400px;
+    float: left;
+}
+ul {
+    list-style:none;
+    float: middle;
+    padding: 10px;
+    display: block;
+}
+
+li {
+    
+    padding: 5px;
+    position: relative;
+    right: 10px;
+}
+li:hover {
+    background-color: tomato;
+    cursor: pointer;
+}
+
+a {
+    color: Black;
+    text-decoration: none;
+}
+a:hover {
+    color: bisque;
+}
+
+
+#body {
+    font-size: medium;
+}
+
+blockquote {
+    font-size: large;
+    background: orange;
+    padding: 4.5px;
+}
+
+blockquote::after {
+    content: '" - Ram';
+}
+blockquote::before {
+    content: '"';
+    
+}
+
+.row {
+    display: block;
+    width: 100%;
+    position: relative;
+    top: 90px;
+    clear: both;
+    background-color: rgb(52, 52, 52);
+}
+
+.col1, .col2, .col3, .full-col {
+    width: auto;
+    display: inline-block;
+    
+    border-collapse: collapse;
+    width: 33%;
+    margin:0;
+    padding:30px 0;
+    text-align: center;
+}
+
+
+.full-col {
+    width: calc(100% );
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

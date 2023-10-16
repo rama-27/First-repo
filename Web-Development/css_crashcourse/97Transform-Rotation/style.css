@@ -1,0 +1,66 @@
+html {
+    height: 100%;
+}
+@font-face {
+    font-family: Light;
+    src: url('Roboto/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: Dark;
+    src: url('Roboto/Roboto-Black.ttf');
+}
+
+@font-face {
+    font-family: littledark;
+    src: url('Roboto/Roboto-Medium.ttf');
+}
+@font-face {
+    font-family: medium;
+    src: url('Roboto/Roboto-Regular.ttf');
+}
+
+body {
+    background-color: gainsboro;
+    font-family: medium;
+    margin-left: 0;
+    margin-top: 0px;
+}
+
+.nav-title {
+    
+    padding: 5px 10px 10px 10px;
+    border: 1px solid;
+    background: rgb(99, 150, 111);
+    color: rgb(0, 0, 0);
+    font-family: dark;
+}
+
+.heading {
+    padding: 10px;
+    margin-top: 4px;
+    font-family: littledark;
+}
+
+
+.box {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    background-color: rgb(156, 137, 235);
+    left: 333px;
+    top: 33px; 
+    transition: 250ms all ease;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    
+    
+    
+       
+}
+
+.box:hover {
+    transform: rotate(360deg);
+    cursor: text;
+}

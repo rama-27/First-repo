@@ -1,0 +1,8 @@
+body {
+    background-color: white;
+}
+
+.icon {
+    list-style-image: url('image.png');
+    list-style-position: inside;
+}

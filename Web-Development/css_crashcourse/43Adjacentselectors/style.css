@@ -1,0 +1,12 @@
+body {
+    background-color: white;
+}
+
+
+form label + input {
+    border: 1px solid red;
+    padding: 3px;
+}
+div > p  {
+    border: 1px solid red;
+}
